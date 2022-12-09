@@ -1,0 +1,15 @@
+[tool.poetry]
+authors = ["author <author@domain.tld>"]
+description = ""
+name = "game"
+readme = "README.md"
+version = "0.1.0"
+
+[tool.poetry.dependencies]
+black = "^22.10.0"
+pyglet = "^2.0.1"
+python = "^3.10"
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core"]
